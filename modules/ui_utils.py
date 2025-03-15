@@ -196,14 +196,8 @@ def show_menu():
     """
     Display the interactive menu and handle user choices
     """
-    from modules.pacman_utils import setup_pacman, update_system, install_packages
-    from modules.aur_utils import install_aur_helper, search_aur, install_aur_package
-    from modules.pentest_tools import (
-        install_blackarch,
-        install_pentest_tools,
-        list_installed_pentest_tools,
-    )
-    from modules.system_utils import check_system_info, backup_system, optimize_system
+    from modules.aur_utils import install_aur_helper
+    from modules.system_utils import check_system_info, optimize_system
 
     while True:
         os.system("clear" if os.name == "posix" else "cls")

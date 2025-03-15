@@ -5,12 +5,7 @@
 import os
 import sys
 import argparse
-import subprocess
-import shutil
 import logging
-import getpass
-from pathlib import Path
-from datetime import datetime
 
 # Import modules
 try:
